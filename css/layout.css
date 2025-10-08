@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+   
 
+
+
+
+body{
+  background-color: white;
+}
 :root {
   --yellow: #f9ca24;
 }
@@ -15,10 +22,7 @@
   text-transform: capitalize;
   transition: all .2s linear; */
 }
-body{
-  background-color: #eee;
-  text-decoration-color: #222;
-}
+
 .her0{
   width: 100%;
   position:sticky;
@@ -53,7 +57,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background:white;
 }
 
 /* Handle */
@@ -63,7 +67,7 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(35, 58, 78);;
 }
 
 
@@ -78,12 +82,13 @@ nav{
 
 }
 .logo{
-  color: #111010;
+  color: #f7eeee;
   font-size: x-large;
   padding: 1rem;
+  font-weight: bolder;
 } 
 span{
-  color: #f9ca24;
+  color:white;
 }
 nav ul li{
   display: inline-block;
@@ -91,10 +96,10 @@ nav ul li{
   padding:10px 20px ;
 }
 nav ul li a{
-  font-size: 2.5rem;
-  color: #0a0101;
+  font-size: 3rem;
+  color:white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
 }
 nav ul li a:hover{
   color: #f9ca24;
@@ -197,6 +202,7 @@ nav ul li a:hover{
 }
 
 .about .row {
+ 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,7 +218,7 @@ nav ul li a:hover{
 }
 
 .about .row .info h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--yellow);
   padding: 1rem 0;
   font-weight: normal;
